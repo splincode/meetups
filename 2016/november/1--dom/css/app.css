@@ -1,0 +1,73 @@
+.message-row {
+	margin-top: 10px;
+}
+
+.col-message {
+	height: 400px;
+	overflow-y: auto;
+	font-size: 14px;
+	border: 1px solid #edeef0;
+	border-radius: 2px;
+    padding: 5px;
+}
+
+.col-message-send {
+	height: 100px;
+}
+
+textarea {
+	width: 100%;
+	max-width: 100%;
+	min-width: 100%;
+	margin: 5px;
+}
+
+button {
+	margin: 5px;
+}
+
+.name {
+	color: #42648b;
+	margin-bottom: 0;
+}
+
+.message-user {
+	margin-bottom: 10px;
+	width: 80%;
+	border: 1px solid #edeef0;
+	background: rgba(237, 238, 240, 0.11);
+	padding: 5px 2px 2px 7px;
+	border-radius: 2px;
+	float: left;
+	position: relative;
+}
+
+.message-user--myfriend {
+	float: right;
+}
+
+.messege-remove {
+	position: absolute;
+	top: 7px;
+	right: 10px;
+	opacity: 0;
+	transition: opacity 0.2s;
+}
+
+.message-user:hover .messege-remove {
+	opacity: 1;
+	transition: opacity 0.4s;
+	cursor: pointer;
+}
+
+.time {
+    margin-left: 5px;
+}
+
+.clearfix:after {
+   content: " "; /* Older browser do not support empty content */
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}

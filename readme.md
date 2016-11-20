@@ -2,6 +2,6 @@
 <h4>Ноябрь 2016</h4>
 <ul>
 	<li>
-		<a href="https://github.com/splincode/codework/tree/master/cpp/fso">Зачем нам нужен фронтенд?</a>
+		<a href="https://github.com/splincode/meetup/tree/master/2016/november">Зачем нам нужен фронтенд?</a>
 	</li>
 </ul>

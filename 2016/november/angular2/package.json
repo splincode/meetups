@@ -1,0 +1,54 @@
+{
+  "name": "angular2-webpack",
+  "version": "1.0.0",
+  "description": "A webpack starter for Angular",
+  "scripts": {
+    "build": "webpack --config config/webpack.prod.js --progress"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/angular/angular.io/blob/master/LICENSE"
+    }
+  ],
+  "dependencies": {
+    "@angular/common": "~2.2.0",
+    "@angular/compiler": "~2.2.0",
+    "@angular/core": "~2.2.0",
+    "@angular/forms": "~2.2.0",
+    "@angular/http": "~2.2.0",
+    "@angular/platform-browser": "~2.2.0",
+    "@angular/platform-browser-dynamic": "~2.2.0",
+    "@angular/router": "~3.2.0",
+    "@types/es6-promise": "0.0.32",
+    "core-js": "^2.4.1",
+    "rxjs": "5.0.0-beta.12",
+    "zone.js": "^0.6.25"
+  },
+  "devDependencies": {
+    "@types/core-js": "^0.9.34",
+    "@types/jasmine": "^2.5.35",
+    "@types/node": "^6.0.50",
+    "angular2-template-loader": "^0.4.0",
+    "awesome-typescript-loader": "^2.2.4",
+    "css-loader": "^0.23.1",
+    "es6-promise": "^3.3.1",
+    "es6-shim": "^0.33.3",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.8.5",
+    "html-loader": "^0.4.3",
+    "html-webpack-plugin": "^2.15.0",
+    "null-loader": "^0.1.1",
+    "raw-loader": "^0.5.1",
+    "style-loader": "^0.13.1",
+    "ts-loader": "^0.8.2",
+    "tslint": "^4.0.1",
+    "tslint-loader": "^2.1.0",
+    "typedoc": "^0.3.12",
+    "typescript": "^2.0.3",
+    "typings": "^2.0.0",
+    "webpack": "^1.13.0",
+    "webpack-dev-server": "^1.14.1",
+    "webpack-merge": "^0.14.0"
+  }
+}

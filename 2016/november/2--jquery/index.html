@@ -11,21 +11,19 @@
 	   	
 	   	<!-- блок с выводом сообщений-->
 	    <div class="message-row col col-8">
-	    	<div class="col-message"></div>
+	    	<div class="col-message col-message-list"></div>
 	    </div>
 		
 		<!-- блок с управлющими элементами -->
 		<div class="col-message-send col col-8">
-			<div class="row">
-			    <div class="col col-12">
-			    	<div class="form-item">
-		    	        <textarea rows="4" class="send-text"></textarea>
-		    	    </div>
-			    </div>
+			<div class="col-message col-message-with-textarea">
+				<div class="form-item">
+		    	    <textarea rows="4" class="send-text"></textarea>
+		    	</div>
 
-			    <div class="col col-3">
-			    	<button class="button primary small send-button">Отправить</button>
-			    </div>
+		    	<button class="button primary small send-button">
+		    		Отправить
+		    	</button>
 			</div>
 		</div>
 

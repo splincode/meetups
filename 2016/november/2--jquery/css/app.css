@@ -19,11 +19,15 @@ textarea {
 	width: 100%;
 	max-width: 100%;
 	min-width: 100%;
-	margin: 5px;
+	min-height: 100px;
+	max-height: 100px;
+	border: none;
+	border-bottom: 1px solid #edeef0;
 }
 
-button {
-	margin: 5px;
+.send-button {
+	margin: 10px;
+	margin-left: 0px;
 }
 
 .name {
@@ -44,6 +48,11 @@ button {
 
 .message-user--myfriend {
 	float: right;
+}
+
+.col-message-with-textarea {
+	height: auto;
+	margin-top: 10px;
 }
 
 .messege-remove {

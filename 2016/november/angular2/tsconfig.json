@@ -2,13 +2,31 @@
   "compilerOptions": {
     "target": "es5",
     "noImplicitAny": false,
-    "removeComments": true,
     "sourceMap": true,
     "module": "commonjs",
+    "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
-    "lib": ["es2015", "dom"],
+    "lib": [
+      "es5",
+      "es6",
+      "dom",
+      "es2015.core",
+      "es2015.collection",
+      "es2015.generator",
+      "es2015.iterable",
+      "es2015.promise",
+      "es2015.proxy",
+      "es2015.reflect",
+      "es2015.symbol",
+      "es2015.symbol.wellknown"
+    ],
     "types": [
       "node"
     ]
-  }
+  },
+  "exclude": [
+    "node_modules",
+    "@types/node/index.d.ts",
+    "typings/main.d.ts"
+  ]
 }

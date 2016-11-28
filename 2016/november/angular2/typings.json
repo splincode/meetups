@@ -1,5 +1,1 @@
-{
-  "globalDependencies": {
-    "require": "registry:dt/require#2.1.20+20160919185614"
-  }
-}
+{ "ambientDependencies": { "es6-shim": "github:DefinitelyTyped/DefinitelyTyped/es6-shim/es6-shim.d.‌​ts#6697d6f7dadbf5773‌​cb40ecda35a76027e078‌​3b2", "node": "github:DefinitelyTyped/DefinitelyTyped/node/node.d.ts#aee00‌​39a2d6686ec783521250‌​10ebb38a7a7d743", "core-js": "registry:dt/core-js#0.0.0+20160317120654" } }

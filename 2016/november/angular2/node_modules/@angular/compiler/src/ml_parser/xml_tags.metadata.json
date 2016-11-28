@@ -1,1 +1,1 @@
-{"__symbolic":"module","version":2,"metadata":{"XmlTagDefinition":{"__symbolic":"class"},"getXmlTagDefinition":{"__symbolic":"function","parameters":["tagName"],"value":{"__symbolic":"new","expression":{"__symbolic":"reference","name":"XmlTagDefinition"}}}}}
+{"__symbolic":"module","version":1,"metadata":{"getXmlTagDefinition":{"__symbolic":"function","parameters":["tagName"],"value":{"__symbolic":"new","expression":{"__symbolic":"reference","name":"XmlTagDefinition"}}}}}

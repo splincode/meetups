@@ -27,7 +27,7 @@ export * from './pipe_resolver_mock';
 import { ModuleWithComponentFactories, CompilerOptions, CompilerFactory, NgModuleFactory, Injector, NgModule, Component, Directive, Pipe, Type, PlatformRef } from '@angular/core';
 import { MetadataOverride } from '@angular/core/testing';
 import { TestingCompilerFactory, TestingCompiler } from './private_import_core';
-import { JitCompiler } from '@angular/compiler';
+import { RuntimeCompiler } from '@angular/compiler';
 import { MockDirectiveResolver } from './directive_resolver_mock';
 import { MockNgModuleResolver } from './ng_module_resolver_mock';
 import { MockPipeResolver } from './pipe_resolver_mock';
@@ -42,7 +42,7 @@ export declare class TestingCompilerImpl implements TestingCompiler {
     private _pipeResolver;
     private _moduleResolver;
     private _overrider;
-    constructor(_compiler: JitCompiler, _directiveResolver: MockDirectiveResolver, _pipeResolver: MockPipeResolver, _moduleResolver: MockNgModuleResolver);
+    constructor(_compiler: RuntimeCompiler, _directiveResolver: MockDirectiveResolver, _pipeResolver: MockPipeResolver, _moduleResolver: MockNgModuleResolver);
     injector: Injector;
     compileModuleSync<T>(moduleType: Type<T>): NgModuleFactory<T>;
     compileModuleAsync<T>(moduleType: Type<T>): Promise<NgModuleFactory<T>>;

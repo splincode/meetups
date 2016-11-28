@@ -418,6 +418,11 @@ export declare class TransitiveCompileNgModuleMetadata {
     constructor(modules: CompileNgModuleInjectorSummary[], providers: CompileProviderMetadata[], entryComponents: CompileIdentifierMetadata[], directives: CompileIdentifierMetadata[], pipes: CompileIdentifierMetadata[], directiveLoaders: (() => Promise<void>)[]);
 }
 export declare function removeIdentifierDuplicates<T extends CompileMetadataWithIdentifier>(items: T[]): T[];
+export declare function isStaticSymbol(value: any): value is StaticSymbol;
+export interface StaticSymbol {
+    name: string;
+    filePath: string;
+}
 export declare class ProviderMeta {
     token: any;
     useClass: Type<any>;

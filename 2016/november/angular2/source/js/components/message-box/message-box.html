@@ -1,0 +1,38 @@
+<div class="row centered">
+
+   	<!-- блок с выводом сообщений-->
+    <div class="message-row col col-8">
+    	<div class="col-message col-message-list">
+    		
+    		<!-- в зависимости от модели данных кол-во элементов будет меняться -->
+    		<div class="message-user" *ngFor="let message of listMessage; let i = index">
+    			<span class="messege-remove label error outline" (click)="removeMessage(i)">Удалить</span>
+    			<p class="name"><samp>{{nameUser}}</samp><span class="time">{{ message.dateTime }}</span></p>
+    			<div>
+    				{{message.data}}
+    			</div>
+    		</div>
+    		<!-- [end] component -->
+
+    	</div>
+    </div>
+	
+	<!-- блок с управлющими элементами -->
+	<div class="col-message-send col col-8">
+		<div class="col-message col-message-with-textarea">
+			<div class="form-item">
+	    	    <textarea rows="4" 
+	    	    		  class="send-text" 
+	    	    		  [(ngModel)]="textMessage" 
+	    	    		  (keydown.control.enter)="sendMessage(textMessage)"
+	    	    		  placeholder="Введите сообщение">		  
+	    	    </textarea>
+	    	</div>
+
+	    	<button class="button primary small send-button" (click)="sendMessage(textMessage)">
+	    		Отправить
+	    	</button>
+		</div>
+	</div>
+	
+</div>

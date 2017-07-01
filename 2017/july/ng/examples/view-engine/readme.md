@@ -1,10 +1,10 @@
-##Angular JIT vs AOT
+## Angular JIT vs AOT
 
 ```bash
 cd angular4 # cd angular2 
 ```
 
-###JIT
+### JIT
 
 ```
 npm run build:prod
@@ -12,7 +12,7 @@ cd dist && httpserver # install global npm package
 ```
 
 
-###AOT
+### AOT
 
 ```
 npm run build:aot:prod

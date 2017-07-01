@@ -1,0 +1,40 @@
+
+# Logs
+logs
+*.log
+
+
+# Node Files #
+/node_modules/
+/bower_components/
+npm-debug.log
+/npm-debug.log.*
+
+
+
+# Dist #
+/dist
+/public/__build__/
+/src/*/__build__/
+/__build__/**
+/public/dist/
+/src/*/dist/
+/dist/**
+/.awcache
+.webpack.json
+/compiled/
+dll/
+
+# Doc #
+/doc/
+
+# IDE #
+.idea/
+*.swp
+
+
+# Angular #
+*.ngfactory.ts
+*.css.shim.ts
+*.ngsummary.json
+*.shim.ngstyle.ts

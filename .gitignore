@@ -5,12 +5,12 @@ logs
 
 
 # Node Files #
-node_modules/
+**/**/node_modules
 
 # Dist #
-**/dist
-**/public/
-**/compiled/
+**/**/**/dist
+**/**/**/public
+**/**/**/compiled
 
 # Doc #
 /doc/

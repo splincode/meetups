@@ -11,14 +11,12 @@ logs
 **/**/**/dist
 **/**/**/public
 **/**/**/compiled
-**/**/**/.awcache
 
 # Doc #
 /doc/
 
-# IDE #
-.idea/
-*.swp
+# Cache #
+**/**/.awcache
 
 
 # Angular #

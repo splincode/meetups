@@ -1,0 +1,126 @@
+﻿{
+  "quick": true,
+  "debug": true,
+  "host": "localhost",
+  "port": {
+    "browser": 1337,
+    "server": 8000
+  },
+  "root": ".",
+  "paths": {
+    "config": "{{root}}/config",
+    "src": {
+      "root": "{{root}}/src",
+      "client": {
+        "root": "{{src_root}}/client",
+        "app": {
+          "root": "{{src_client_root}}/app"
+        },
+        "assets": {
+          "root": "{{src_client_root}}/assets",
+          "sass": "{{src_assets_root}}/sass"
+        }
+      },
+      "server": {
+        "root": "{{src_root}}/server",
+        "app": "{{src_server_root}}/app"
+      }
+    },
+    "public": {
+      "root": "{{root}}/public",
+      "assets": {
+        "root": "{{public_root}}/assets"
+      }
+    },
+    "server": "{{root}}/.server",
+    "cache": "{{root}}/.cache",
+    "temp": {
+      "root": "{{root}}/.temp",
+      "dll": "{{temp_root}}/dll"
+    },
+    "NODE_MODULES": "{{root}}/node_modules"
+  },
+  "plugins": {
+    "pluginloader": {
+      "pattern": [
+        "gulp-*",
+        "async",
+        "rimraf",
+        "webpack",
+        "postcss-*",
+        "autoprefixer",
+        "colorguard",
+        "stylefmt"
+      ],
+      "rename": {
+        "postcss-scss": "scss",
+        "postcss-reporter": "reporter"
+      }
+    },
+    "debugger": {
+      "title": ""
+    },
+    "autoprefixer": {
+      "browsers": [
+        "last 2 versions",
+        "> 5%",
+        "Firefox ESR"
+      ]
+    }
+  },
+  "webpack": {
+    "devtool": {
+      "DEV": "cheap-module-source-map",
+      "PROD": "source-map",
+      "TEST": "inline-source-map"
+    },
+    "bundles": {
+      "polyfills": [
+        "core-js",
+        {
+          "name": "zone.js",
+          "path": "zone.js/dist/zone.js"
+        },
+        {
+          "name": "zone.js",
+          "path": "zone.js/dist/long-stack-trace-zone.js"
+        }
+      ],
+      "angular": [
+        "@angular/animations",
+        "@angular/common",
+        "@angular/compiler",
+        "@angular/core",
+        "@angular/forms",
+        "@angular/http",
+        "@angular/platform-browser",
+        "@angular/platform-browser-dynamic",
+        "@angular/platform-server",
+        "@angular/router"
+      ],
+      "vendor": [
+        "core-js",
+        "rxjs",
+        "zone.js",
+        "lodash",
+        "@angularclass/bootloader",
+        "@ngx-universal/express-engine",
+        "@ngx-universal/state-transfer",
+        "@ngx-config/core",
+        "@ngx-config/http-loader",
+        "@ngx-config/fs-loader",
+        "@ngx-cache/core",
+        "@ngx-cache/platform-browser",
+        "@ngx-cache/platform-server",
+        "@ngx-cache/fs-storage",
+        "@ngx-universal/config-loader",
+        "@ngx-translate/core",
+        "@ngx-translate/http-loader",
+        "@ngx-universal/translate-loader",
+        "@ngx-meta/core",
+        "@ngx-i18n-router/core",
+        "@ngx-i18n-router/config-loader"
+      ]
+    }
+  }
+}

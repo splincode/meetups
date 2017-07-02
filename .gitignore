@@ -17,6 +17,8 @@ logs
 
 # Cache #
 **/**/.awcache
+**/**/.cache
+**/**/.server
 
 
 # Angular #

@@ -1,4 +1,4 @@
-<img src="https://habrastorage.org/web/2d7/608/30f/2d760830f95b4e49af74a40708be03c0.png" align="center"/>
+<img src="https://habrastorage.org/web/d8a/265/e08/d8a265e084824f90a886dd77bbd1c637.png" align="center"/>
 
 <a href="https://docs.google.com/presentation/d/11jsWuXukxAujq8i0o9ojrafRlwm-RyMKgbGtpI9CxWM/edit?usp=sharing">
 	Ссылка на презентацию

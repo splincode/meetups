@@ -1,0 +1,19 @@
+<div class="container">  
+  <form id="contact">
+    <h3>Добро пожаловать</h3>
+    <h4>Для входа в систему необходимо заполнить все поля</h4>
+    <fieldset>
+      <input placeholder="Ваше имя" type="text" tabindex="1" [(ngModel)]="name" name="name" required autofocus>
+    </fieldset>
+    <fieldset>
+      <input placeholder="Ваш пароль" type="password" tabindex="2" [(ngModel)]="password" name="password" required>
+    </fieldset>
+   
+    <fieldset>
+      <button name="submit" type="submit" id="contact-submit" (click)="login(name, password)">Авторизоваться</button>
+    </fieldset>
+
+    <p class="invalid" *ngIf="isEmpty">Не все поля заполнены</p>
+
+  </form>
+</div>

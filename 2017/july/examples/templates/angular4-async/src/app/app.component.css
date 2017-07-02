@@ -1,4 +1,3 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,600,400italic);
 * {
   margin: 0;
   padding: 0;
@@ -26,7 +25,6 @@ html, body{
 }
 
 body {
-	position: fixed;
     width: 100%;
     height: 100%;
 }

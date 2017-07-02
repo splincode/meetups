@@ -1,0 +1,20 @@
+<div class="container">
+	<div id="contact">
+
+		<ng-template #loadingCompanies>
+			<p>Идет загрузка данных...</p>
+		</ng-template>
+
+		<div *ngIf="companiesObservable | async as companies else loadingCompanies">
+			
+			<div *ngFor="let company of companies">
+				<p><b>Имя компании: {{company.company}}</b></p>
+				<p><b>Возраст: {{company.age}}</b></p>
+				<p><b>Баланс: {{company.balance}}</b></p>
+				<hr>
+			</div>
+
+		</div>
+
+	</div>
+</div>

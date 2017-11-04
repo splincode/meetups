@@ -1,19 +1,52 @@
-<img src="https://upload.wikimedia.org/wikipedia/ru/8/8a/Stankin.gif" width="10%" height="10%" alt="">
-<h4>Ноябрь 2016 (выступление на университетской конфиренции, посвященной IT сектору)</h4>
-<ul>
-	<li>
-		<a href="https://github.com/splincode/meetup/tree/master/2016/november">Зачем нам нужен фронтенд?</a>
-	</li>
-</ul>
+# Angular5
+
+```bash
+npm install
+npm install -g http-server
+```
+
+## AOT mode
+
+```bash
+ng build --aot --prod
+cd dist/
+http-server
+# open in browser http://127.0.0.1:8081
+```
+
+![](https://habrastorage.org/webt/_u/8r/g_/_u8rg_tlgmmfjmcvxay8mxy98pi.png)
+
+## JIT mode (Problem)
+
+```bash
+ng build --no-aot --prod
+cd dist/
+http-server
+# open in browser http://127.0.0.1:8081
+```
+
+```text
+main.c90f048daaa26da75376.bundle.js:1 Uncaught Error: Unexpected value 't' imported by the module 't'. Please add a @NgModule annotation.
+    at p (main.c90f048daaa26da75376.bundle.js:1)
+    at main.c90f048daaa26da75376.bundle.js:1
+    at Array.forEach (<anonymous>)
+    at t.getNgModuleMetadata (main.c90f048daaa26da75376.bundle.js:1)
+    at t._loadModules (main.c90f048daaa26da75376.bundle.js:1)
+    at t._compileModuleAndComponents (main.c90f048daaa26da75376.bundle.js:1)
+    at t.compileModuleAsync (main.c90f048daaa26da75376.bundle.js:1)
+    at t.compileModuleAsync (main.c90f048daaa26da75376.bundle.js:1)
+    at t.LMZF.t.bootstrapModule (main.c90f048daaa26da75376.bundle.js:1)
+    at Object.cDNt (main.c90f048daaa26da75376.bundle.js:1)
+```
 
 
-<br>
+## JIT mode (Fix Problem)
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/2000px-Google_2015_logo.svg.png" width="10%" height="10%" alt="">
-<h4>Июль 2017 (выступление в Google, посвященное Angular 4)</h4>
-<ul>
-	<li>
-		<a href="https://github.com/splincode/meetup/tree/master/2017/july">Что нового в Angular 4?</a>
-	</li>
-</ul>
+```bash
+ng build --prod --aot=false --build-optimizer=false
+cd dist/
+http-server
+# open in browser http://127.0.0.1:8081
+```
 
+![](https://habrastorage.org/webt/_u/8r/g_/_u8rg_tlgmmfjmcvxay8mxy98pi.png)

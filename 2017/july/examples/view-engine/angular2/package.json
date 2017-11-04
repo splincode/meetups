@@ -5,7 +5,7 @@
   "scripts": {
     "build": "webpack --progress",
     "build:prod": "NODE_ENV=production webpack --progress",
-    "build:aot:prod": "ngc && NODE_ENV=production webpack --config webpack.config.aot.js --progress",
+    "build:aot:prod": "ngc && set NODE_ENV=production && webpack --config webpack.config.aot.js --progress",
     "watch": "npm run build -- --watch",
     "server": "webpack-dev-server --inline --progress --port 3000 --content-base src",
     "start": "npm run server",

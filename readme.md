@@ -24,7 +24,7 @@
 <h4>Март 2018 (выступление в Тинькофф)</h4>
 <ul>
 	<li>
-		<a href="https://github.com/splincode/meetup/tree/master/2018/march">Change Detection</a>
+		<a href="https://github.com/splincode/meetup/tree/master/2018/march">Стратегия обнаружения изменений в Angular</a>
 	</li>
 </ul>
 

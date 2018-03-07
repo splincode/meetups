@@ -17,3 +17,15 @@
 	</li>
 </ul>
 
+
+<br>
+
+<img src="https://logosklad.ru/UserFiles/image/Tinkoff_old.png" width="10%" height="10%" alt="">
+<h4>Март 2018 (выступление в Тинькофф)</h4>
+<ul>
+	<li>
+		<a href="https://github.com/splincode/meetup/tree/master/2018/march">Change Detection</a>
+	</li>
+</ul>
+
+

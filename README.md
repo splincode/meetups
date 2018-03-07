@@ -20,7 +20,7 @@
 
 <br>
 
-<img src="https://logosklad.ru/UserFiles/image/Tinkoff_old.png" width="10%" height="10%" alt="">
+<img src="https://www.tinkoff.ru/static/media/logo-tinkoff-200.png" width="10%" height="10%" alt="">
 <h4>Март 2018 (выступление в Тинькофф)</h4>
 <ul>
 	<li>

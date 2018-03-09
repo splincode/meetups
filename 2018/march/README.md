@@ -2,6 +2,29 @@
 
 [Ссылка на презентацию](https://docs.google.com/presentation/d/1QrnHoBEgHtj_a48QdHLme8Di-OHjtajmOxVC2WlNOvY/edit?usp=sharing)
 
+1. **Хороший, плохой, злой DOM**
+- Что такое критический путь рендеринга
+- Является ли DOM медленным?
+- Рендеринг HTML/CSS через WebGL
+2. **Что такое MVVW (Model, View, ViewModel)?**
+- Компонентная архитектура
+3.  **Основное различие между двусторонним связыванием данных и однонаправленным потоком**
+- Почему ReactJS использует one-way data-binding?
+- Polymer Shadow DOM vs ReactJS Virtual DOM
+- Почему при разработке Angular 2 отказались от Virtual DOM?
+- Почему VueJS использует two-way data-binding и Virtual DOM
+4. **Стратегии оптимизации в Angular**
+- Примеры связывания моделей данных в шаблонах
+- Уменьшение количества проверок (ChangeDetection)
+- Экономия ресурсов процессора с использование trackByFunction
+- Ненужные вычисления значений в шаблоне
+- Отключение обнаружения
+5. **Умные стратегии обнаружения**
+- Что такое ngZone
+- Immutable Objects
+- Observables streams
+
+
 #### Интересные материалы
 
 - [Performance Reviews](https://help.small-improvements.com/hc/en-us/articles/209563969-Performance-reviews-The-manager-s-perspective)

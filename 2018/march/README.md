@@ -47,3 +47,4 @@
 - [Angular in Production](http://blog.mgechev.com/2017/01/17/angular-in-production/)
 - [Faster Angular Applications - Part 2. Pure Pipes, Pure Functions and Memoization](http://blog.mgechev.com/2017/11/12/faster-angular-applications-pure-pipes-memoization-pure-functions-part-2/)
 - [Angular Web Workers factorial example](https://kaikcreator.github.io/angular-cli-web-worker/)
+- [Get as many FPS as you need and amazing effects by rendering HTML/CSS in WebGL](https://github.com/PixelsCommander/HTML-GL)

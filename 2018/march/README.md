@@ -52,3 +52,4 @@
 - [Two-way data binding vs. One-way data flow](http://johndepippo.com/2017/05/23/two-way_data_binding_vs_one-way_data_flow/)
 - [Change And Its Detection In JavaScript Frameworks](https://teropa.info/blog/2015/03/02/change-and-its-detection-in-javascript-frameworks.html)
 - [Render Ivy Object.defineProperty](https://github.com/angular/angular/blob/4f609687044a5b7cd15f796bce948e9385b70f7a/packages/core/src/render3/definition.ts#L92-L106)
+- [Concept of Angular (ngZone + ChangeDetection) better than concept React, Vue (Virtual DOM)?](https://github.com/angular/angular/issues/22587)

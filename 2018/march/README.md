@@ -54,3 +54,4 @@
 - [Render Ivy Object.defineProperty](https://github.com/angular/angular/blob/4f609687044a5b7cd15f796bce948e9385b70f7a/packages/core/src/render3/definition.ts#L92-L106)
 - [Concept of Angular (ngZone + ChangeDetection) better than concept React, Vue (Virtual DOM)?](https://github.com/angular/angular/issues/22587)
 - [ANGULAR CHANGE DETECTION EXPLAINED](https://blog.thoughtram.io//angular/2016/02/22/angular-2-change-detection-explained.html)
+- [Zone.js introduction](https://www.slideshare.net/IliaIdakiev/zonejs)

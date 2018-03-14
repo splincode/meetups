@@ -55,3 +55,4 @@
 - [Concept of Angular (ngZone + ChangeDetection) better than concept React, Vue (Virtual DOM)?](https://github.com/angular/angular/issues/22587)
 - [ANGULAR CHANGE DETECTION EXPLAINED](https://blog.thoughtram.io//angular/2016/02/22/angular-2-change-detection-explained.html)
 - [Zone.js introduction](https://www.slideshare.net/IliaIdakiev/zonejs)
+- [change-detection-tree](https://github.com/Angular-RU/change-detection-tree)

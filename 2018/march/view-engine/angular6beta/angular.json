@@ -1,0 +1,138 @@
+{
+  "$schema": "./node_modules/@angular-devkit/core/src/workspace/workspace-schema.json",
+  "version": 1,
+  "newProjectRoot": "projects",
+  "projects": {
+    "angular6beta": {
+      "root": "projects/angular6beta",
+      "projectType": "application",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:browser",
+          "options": {
+            "outputPath": "dist/angular6beta",
+            "index": "projects/angular6beta/src/index.html",
+            "main": "projects/angular6beta/src/main.ts",
+            "polyfills": "projects/angular6beta/src/polyfills.ts",
+            "tsConfig": "projects/angular6beta/tsconfig.app.json",
+            "assets": [
+              {
+                "glob": "favicon.ico",
+                "input": "projects/angular6beta/src",
+                "output": "./"
+              },
+              {
+                "glob": "**/*",
+                "input": "projects/angular6beta/src/assets",
+                "output": "assets"
+              }
+            ],
+            "styles": [
+              {
+                "input": "projects/angular6beta/src/styles.css"
+              }
+            ],
+            "scripts": []
+          },
+          "configurations": {
+            "production": {
+              "fileReplacements": [
+                {
+                  "from": "projects/angular6beta/src/environments/environment.ts",
+                  "to": "projects/angular6beta/src/environments/environment.prod.ts"
+                }
+              ],
+              "optimization": true,
+              "outputHashing": "all",
+              "sourceMap": false,
+              "extractCss": true,
+              "namedChunks": false,
+              "aot": true,
+              "extractLicenses": true,
+              "vendorChunk": false,
+              "buildOptimizer": true
+            }
+          }
+        },
+        "serve": {
+          "builder": "@angular-devkit/build-angular:dev-server",
+          "options": {
+            "browserTarget": "angular6beta:build"
+          },
+          "configurations": {
+            "production": {
+              "browserTarget": "angular6beta:build:production"
+            }
+          }
+        },
+        "extract-i18n": {
+          "builder": "@angular-devkit/build-angular:extract-i18n",
+          "options": {
+            "browserTarget": "angular6beta:build"
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/angular6beta/src/test.ts",
+            "polyfills": "projects/angular6beta/src/polyfills.ts",
+            "tsConfig": "projects/angular6beta/tsconfig.spec.json",
+            "karmaConfig": "projects/angular6beta/karma.conf.js",
+            "styles": [
+              {
+                "input": "projects/angular6beta/styles.css"
+              }
+            ],
+            "scripts": [],
+            "assets": [
+              {
+                "glob": "favicon.ico",
+                "input": "projects/angular6beta/src/",
+                "output": "./"
+              },
+              {
+                "glob": "**/*",
+                "input": "projects/angular6beta/src/assets",
+                "output": "assets"
+              }
+            ]
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "projects/angular6beta/tsconfig.app.json",
+              "projects/angular6beta/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
+    },
+    "angular6beta-e2e": {
+      "root": "projects/angular6beta-e2e",
+      "projectType": "application",
+      "architect": {
+        "e2e": {
+          "builder": "@angular-devkit/build-angular:protractor",
+          "options": {
+            "protractorConfig": "projects/angular6beta-e2e/protractor.conf.js",
+            "devServerTarget": "angular6beta:serve"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": "projects/angular6beta-e2e/tsconfig.e2e.json",
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
+    }
+  }
+}

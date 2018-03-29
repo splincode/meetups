@@ -1,6 +1,5 @@
 ## Angular JIT vs AOT
 
-
 ### Angular 2
 ```bash
 cd angular2
@@ -31,6 +30,9 @@ cd dist && httpserver
 
 Перейдите по адресу: localhost:8000, откройте Chrome Dev Tools на вкладке perfomance и запустите несколько раз страницу, чтобы посмотреть средние результаты загрузки
 
+### Angular 5+
+
+Usage AOT `ng build --aot --prod` or JIT `ng build --no-aot --prod --build-optimizer false`
 
 ### Примечание
 * Я устанавливал себе глобально httpserver

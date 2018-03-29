@@ -1,4 +1,7 @@
-## Angular JIT vs AOT
+## Angular JIT vs AOT 
+
+Chrome timeline perfomance
+![](https://habrastorage.org/webt/ov/1y/5m/ov1y5mfimskkisme7kewdrailmy.jpeg)
 
 ### Angular 2
 ```bash
@@ -16,7 +19,7 @@ cd dist && httpserver
 
 ### Angular 4
 ```bash
-cd angular2
+cd angular4
 npm install
 
 # JIT Compilation

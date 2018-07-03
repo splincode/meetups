@@ -28,4 +28,11 @@
 	</li>
 </ul>
 
+<img src="https://habrastorage.org/webt/lp/wm/1_/lpwm1_3fpw8idwa5j5herzvq46u.png" width="10%" height="10%" alt="">
+<h4>Июнь 2018 (выступление в Cinimex)</h4>
+<ul>
+	<li>
+		<a href="https://github.com/splincode/meetup/tree/master/2018/june">Backend на Kotlin и Angular на frontend</a>
+	</li>
+</ul>
 

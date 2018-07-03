@@ -6,7 +6,6 @@
 	</li>
 </ul>
 
-
 <br>
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/2000px-Google_2015_logo.svg.png" width="10%" height="10%" alt="">
@@ -17,7 +16,6 @@
 	</li>
 </ul>
 
-
 <br>
 
 <img src="https://www.tinkoff.ru/static/media/logo-tinkoff-200.png" width="10%" height="10%" alt="">
@@ -27,6 +25,8 @@
 		<a href="https://github.com/splincode/meetup/tree/master/2018/march">Стратегия обнаружения изменений в Angular</a>
 	</li>
 </ul>
+
+<br>
 
 <img src="https://habrastorage.org/webt/lp/wm/1_/lpwm1_3fpw8idwa5j5herzvq46u.png" width="10%" height="10%" alt="">
 <h4>Июнь 2018 (выступление в Cinimex)</h4>

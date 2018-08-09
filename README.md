@@ -19,7 +19,7 @@
 <br>
 
 <img src="https://www.tinkoff.ru/static/media/logo-tinkoff-200.png" width="10%" height="10%" alt="">
-<h4>Март 2018 (выступление в Тинькофф)</h4>
+<h4>Март 2018 (выступление в Тинькофф) - <a href="https://www.youtube.com/watch?v=2cV4i-g6Oxc">видео</a> </h4>
 <ul>
 	<li>
 		<a href="https://github.com/splincode/meetup/tree/master/2018/march">Стратегия обнаружения изменений в Angular</a>
@@ -29,7 +29,7 @@
 <br>
 
 <img src="https://habrastorage.org/webt/lp/wm/1_/lpwm1_3fpw8idwa5j5herzvq46u.png" width="10%" height="10%" alt="">
-<h4>Июнь 2018 (выступление в Cinimex)</h4>
+<h4>Июнь 2018 (выступление в Cinimex) - <a href="https://www.youtube.com/watch?v=G_foWJwhFE8">видео</a> </h4>
 <ul>
 	<li>
 		<a href="https://github.com/splincode/meetup/tree/master/2018/june">Backend на Kotlin и Angular на frontend</a>

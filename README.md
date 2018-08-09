@@ -6,7 +6,7 @@
 	</li>
 </ul>
 
-<br>
+<br><br>
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/2000px-Google_2015_logo.svg.png" width="10%" height="10%" alt="">
 <h4>Июль 2017 (выступление в Google, посвященное Angular 4)</h4>
@@ -16,7 +16,7 @@
 	</li>
 </ul>
 
-<br>
+<br><br>
 
 <img src="https://www.tinkoff.ru/static/media/logo-tinkoff-200.png" width="10%" height="10%" alt="">
 <h4>Март 2018 (выступление в Тинькофф) - <a href="https://www.youtube.com/watch?v=2cV4i-g6Oxc">видео</a> </h4>
@@ -26,7 +26,7 @@
 	</li>
 </ul>
 
-<br>
+<br><br>
 
 <img src="https://habrastorage.org/webt/lp/wm/1_/lpwm1_3fpw8idwa5j5herzvq46u.png" width="10%" height="10%" alt="">
 <h4>Июнь 2018 (выступление в Cinimex) - <a href="https://www.youtube.com/watch?v=G_foWJwhFE8">видео</a> </h4>

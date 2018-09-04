@@ -42,7 +42,7 @@
 <h4>Август 2018 (выступление на Web Standard Days) - <a href="https://youtu.be/gi1bQ_enE8w?t=2h39m59s">видео</a> </h4>
 <ul>
 	<li>
-		<a href="https://github.com/splincode/meetups/tree/master/2018/august">Backend на Kotlin и Angular на frontend</a>
+		<a href="https://github.com/splincode/meetups/tree/master/2018/august">Redux + Angular: ngrx, ngxs, akita</a>
 	</li>
 </ul>
 

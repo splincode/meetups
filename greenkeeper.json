@@ -1,0 +1,19 @@
+{
+  "groups": {
+    "default": {
+      "packages": [
+        "2016/november/angular2/package.json",
+        "2017/july/examples/templates/angular4-async/package.json",
+        "2017/july/examples/universal/universal-angular2/package.json",
+        "2017/july/examples/universal/universal-angular4/package.json",
+        "2017/july/examples/view-engine/angular2/package.json",
+        "2017/july/examples/view-engine/angular4/package.json",
+        "2017/july/examples/view-engine/angular5/package.json",
+        "2018/march/view-engine/angular2/package.json",
+        "2018/march/view-engine/angular4/package.json",
+        "2018/march/view-engine/angular5/package.json",
+        "2018/march/view-engine/angular6beta/package.json"
+      ]
+    }
+  }
+}

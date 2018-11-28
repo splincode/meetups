@@ -1,3 +1,6 @@
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/splincode/meetups.svg)](https://greenkeeper.io/)
+
 <img src="https://upload.wikimedia.org/wikipedia/ru/8/8a/Stankin.gif" width="10%" height="10%" alt="">
 <h4>Ноябрь 2016 (выступление на университетской конфиренции, посвященной IT сектору)</h4>
 <ul>

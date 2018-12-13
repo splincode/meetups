@@ -39,7 +39,7 @@
 <br><br>
 
 <img src="https://s.dou.ua/CACHE/images/img/events/041b2607a76ee67bdaf2b44ce4808aa2/c01e92f827ea0a72bbfe9125fb8e5105.png" width="10%" height="10%" alt="">
-<h4>Август 2018 (выступление на Web Standard Days) - <a href="https://www.youtube.com/watch?v=sxN5hmb2hdU&list=PLMBnwIwFEFHfbZbPWkfsY31wKbqnj548z&index=4&t=0s">видео</a> </h4>
+<h4>Август 2018 (выступление на Web Standard Days) - <a href="https://www.youtube.com/watch?v=sxN5hmb2hdU&list=PLMBnwIwFEFHfbZbPWkfsY31wKbqnj548z">видео</a> </h4>
 <ul>
 	<li>
 		<a href="https://github.com/splincode/meetups/tree/master/2018/august">Redux + Angular: ngrx, ngxs, akita</a>

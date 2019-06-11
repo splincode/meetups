@@ -47,5 +47,17 @@
 </ul>
 
 
+<br><br>
 
+<img src="https://i.ytimg.com/vi/ekFB-4Afj2E/maxresdefault.jpg" width="10%" height="10%" alt="">
+<h4>Октябрь 2018 (выступление на FrontConf) - StoreWars (ngxs, redux, vuex)
+<a href="https://www.youtube.com/watch?v=7646rW8qdcQ">видео</a> 
+</h4>
 
+<br><br>
+
+<img src="https://ic.pics.livejournal.com/kortunov/514340/81028/81028_original.png" width="10%" height="10%" alt="">
+<h4>Ноябрь 2018 (выступление на 404fest) - StoreWars (ngxs, redux, vuex)
+<a href="https://www.youtube.com/watch?v=I_TqRcw4keQ">видео</a> 
+
+<br><br>

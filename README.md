@@ -1,63 +1,15 @@
-<img src="https://upload.wikimedia.org/wikipedia/ru/8/8a/Stankin.gif" width="10%" height="10%" alt="">
-<h4>Ноябрь 2016 (выступление на университетской конфиренции, посвященной IT сектору)</h4>
-<ul>
-	<li>
-		<a href="https://github.com/splincode/meetup/tree/master/2016/november">Зачем нам нужен фронтенд?</a>
-	</li>
-</ul>
+<h2>Выступления</h2>
 
-<br><br>
-
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/2000px-Google_2015_logo.svg.png" width="10%" height="10%" alt="">
-<h4>Июль 2017 (выступление в Google, посвященное Angular 4)</h4>
-<ul>
-	<li>
-		<a href="https://github.com/splincode/meetup/tree/master/2017/july">Что нового в Angular 4?</a>
-	</li>
-</ul>
-
-<br><br>
-
-<img src="https://www.tinkoff.ru/static/media/logo-tinkoff-200.png" width="10%" height="10%" alt="">
-<h4>Март 2018 (выступление в Тинькофф) - <a href="https://www.youtube.com/watch?v=2cV4i-g6Oxc">видео</a> </h4>
-<ul>
-	<li>
-		<a href="https://github.com/splincode/meetup/tree/master/2018/march">Стратегия обнаружения изменений в Angular</a>
-	</li>
-</ul>
-
-<br><br>
-
-<img src="https://habrastorage.org/webt/lp/wm/1_/lpwm1_3fpw8idwa5j5herzvq46u.png" width="10%" height="10%" alt="">
-<h4>Июнь 2018 (выступление в Cinimex) - <a href="https://www.youtube.com/watch?v=G_foWJwhFE8">видео</a> </h4>
-<ul>
-	<li>
-		<a href="https://github.com/splincode/meetup/tree/master/2018/june">Backend на Kotlin и Angular на frontend</a>
-	</li>
-</ul>
-
-<br><br>
-
-<img src="https://s.dou.ua/CACHE/images/img/events/041b2607a76ee67bdaf2b44ce4808aa2/c01e92f827ea0a72bbfe9125fb8e5105.png" width="10%" height="10%" alt="">
-<h4>Август 2018 (выступление на Web Standard Days) - <a href="https://www.youtube.com/watch?v=sxN5hmb2hdU&list=PLMBnwIwFEFHfbZbPWkfsY31wKbqnj548z">видео</a> </h4>
-<ul>
-	<li>
-		<a href="https://github.com/splincode/meetups/tree/master/2018/august">Redux + Angular: ngrx, ngxs, akita</a>
-	</li>
-</ul>
-
-
-<br><br>
-
-<img src="https://i.ytimg.com/vi/ekFB-4Afj2E/maxresdefault.jpg" width="10%" height="10%" alt="">
-<h4>Октябрь 2018 (выступление на FrontConf) - StoreWars (ngxs, redux, vuex)
-<a href="https://www.youtube.com/watch?v=7646rW8qdcQ">видео</a> 
-</h4>
-
-<br><br>
-
-<img src="https://ic.pics.livejournal.com/kortunov/514340/81028/81028_original.png" width="10%" height="10%" alt="">
-<h4>Ноябрь 2018 (выступление на 404fest) - StoreWars (ngxs, redux, vuex)
-<a href="https://www.youtube.com/watch?v=I_TqRcw4keQ">видео</a> 
-
-<br><br>
+- [x] [<b>2020</b>. NGXS, AngularMinsk, онлайн митап](https://www.youtube.com/watch?v=BtVHm0FJIRA&ab_channel=AngularMinsk)
+- [x] [<b>2020</b>. NGXS, ngRuAir подскаст](https://www.youtube.com/watch?app=desktop&v=0OT8O4gj6ak&ab_channel=ngRuAir)
+- [x] [<b>2019</b>. Lighting доклад: Angular Elements, Офис Тинькофф, Москва](https://meetup.tbank.ru/event/angular-meetup-13/)
+- [x] [<b>2018</b>. StoreWars. Конференция FrontConf, Сколково](https://www.youtube.com/watch?v=7646rW8qdcQ)
+- [x] [<b>2018</b>. Redux + Angular: ngrx, ngxs, akita. Конференция Web Standard Days, Санкт-Петербург](https://www.youtube.com/watch?v=sxN5hmb2hdU&list=PLMBnwIwFEFHfbZbPWkfsY31wKbqnj548z)
+- [x] [<b>2018</b>. Backend на Kotlin и Angular на frontend. Офис Cinimex, Москва](https://www.youtube.com/watch?v=G_foWJwhFE8)
+- [x] [<b>2018</b>. Стратегия обнаружения изменений в Angular. Офис Тинькофф, Санкт-Петербург](https://www.youtube.com/watch?v=2cV4i-g6Oxc)
+- [x] [<b>2017</b>. Что нового в Angular 4? Коворкинг офис Google, Балчуг-плаза, Москва](https://www.meetup.com/angularmoscow/events/240758540/)
+- [x] [<b>2016</b>. Лекция для студентов. Зачем нам нужен фронтенд? Университет МГТУ Станкин, Москва](https://github.com/splincode/meetup/tree/master/2016/november)
+- [x] [<b>2015</b>. Лекция для студентов. Верстка страничек. Университет МГТУ Станкин, Москва](https://www.youtube.com/watch?v=qQx2fc7AoxQ&ab_channel=SplincodeTV)
+- [x] [<b>2015</b>. Лекция для студентов. SASS. Университет МГТУ Станкин, Москва](https://www.youtube.com/watch?v=05Co-XbL700&ab_channel=SplincodeTV)
+- [x] [<b>2015</b>. Лекция для студентов. CSS. Университет МГТУ Станкин, Москва](https://www.youtube.com/watch?v=pPBp_MmKMPw&ab_channel=SplincodeTV)
+- [x] [<b>2015</b>. Лекция для студентов. HTML. Университет МГТУ Станкин, Москва](https://www.youtube.com/watch?v=YOGD9ltYqCE&t=6s&ab_channel=SplincodeTV)

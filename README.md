@@ -3,6 +3,7 @@
 - [x] [<b>2020</b>. NGXS, AngularMinsk, онлайн митап](https://www.youtube.com/watch?v=BtVHm0FJIRA&ab_channel=AngularMinsk)
 - [x] [<b>2020</b>. NGXS, ngRuAir подскаст](https://www.youtube.com/watch?app=desktop&v=0OT8O4gj6ak&ab_channel=ngRuAir)
 - [x] [<b>2019</b>. Lighting доклад: Angular Elements, Офис Тинькофф, Москва](https://meetup.tbank.ru/event/angular-meetup-13/)
+- [x] [<b>2018</b>. Кирилл Юсупов, Максим Иванов - StoreWars (ngxs, redux, vuex), 404fest](https://www.youtube.com/watch?v=I_TqRcw4keQ&ab_channel=404show%E2%80%94IT-%D0%BF%D0%BE%D0%B4%D0%BA%D0%B0%D1%81%D1%82)
 - [x] [<b>2018</b>. StoreWars. Конференция FrontConf, Сколково](https://www.youtube.com/watch?v=7646rW8qdcQ)
 - [x] [<b>2018</b>. Redux + Angular: ngrx, ngxs, akita. Конференция Web Standard Days, Санкт-Петербург](https://www.youtube.com/watch?v=sxN5hmb2hdU&list=PLMBnwIwFEFHfbZbPWkfsY31wKbqnj548z)
 - [x] [<b>2018</b>. Backend на Kotlin и Angular на frontend. Офис Cinimex, Москва](https://www.youtube.com/watch?v=G_foWJwhFE8)
